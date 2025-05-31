@@ -10,13 +10,13 @@ public class MissingNumber {
     public static int missingNumber(int[] nums) {
         int ans = 0;
         Arrays.sort(nums);
-        for(int i=0; i<nums.length-1; i++)
+        for(int i=0; i<nums.length; i++)
         {
             if(nums[i] != i)
             {
-                ans = i;
+                return i;
             }
         }
-        return ans;
+        return nums.length;
     }
 }
