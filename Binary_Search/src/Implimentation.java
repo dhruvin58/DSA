@@ -3,6 +3,12 @@ public class Implimentation {
     {
         int[] arr = {2,4,6,9,11,12,14,20,36,48};
         int target = 36;
+        int ans = BinarySearch(arr, target);
+        System.out.println(ans);
+
+    }
+    static int BinarySearch(int[] arr, int target)
+    {
         int start = 0;
         int end = arr.length-1;
 
@@ -12,8 +18,7 @@ public class Implimentation {
 
             if (target == arr[mid])
             {
-                System.out.println(arr[mid]);
-                return;
+                return mid;
             }
             else if(target > arr[mid])
             {
@@ -23,6 +28,6 @@ public class Implimentation {
                 end = mid - 1;
             }
         }
-        System.out.println("Target Not Found..");
+        return -1;
     }
 }
