@@ -3,7 +3,7 @@ public class SearchInRotateDuplicate_81 {
         int[] arr = {2, 2, 2, 3, 1};
         int target = 1;
         boolean ans = search(arr, target);
-        System.out.println(ans);  // ✅ true
+        System.out.println(ans);
     }
     static boolean search(int[] arr, int target)
     {
