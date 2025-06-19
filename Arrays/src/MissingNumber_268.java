@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MissingNumber {
+public class MissingNumber_268 {
     public static void main(String[] args)
     {
         int[] arr = {3,0,1};
