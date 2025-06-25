@@ -11,14 +11,14 @@ public class CountMatches_1773 {
         row1.add("pixel");
 
         List<String> row2 = new ArrayList<>();
-        row1.add("computer");
-        row1.add("silver");
-        row1.add("lenovo");
+        row2.add("computer");
+        row2.add("silver");
+        row2.add("lenovo");
 
         List<String> row3 = new ArrayList<>();
-        row1.add("phone");
-        row1.add("gold");
-        row1.add("iphone");
+        row3.add("phone");
+        row3.add("gold");
+        row3.add("iphone");
 
         list.add(row1);
         list.add(row2);
