@@ -6,7 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/Binary_Search/Binary_Search.iml" filepath="$PROJECT_DIR$/Binary_Search/Binary_Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear_Search/Linear_Search.iml" filepath="$PROJECT_DIR$/Linear_Search/Linear_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simple_Programs/Simple_Programs.iml" filepath="$PROJECT_DIR$/Simple_Programs/Simple_Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree/Tree.iml" filepath="$PROJECT_DIR$/Tree/Tree.iml" />
     </modules>
   </component>
 </project>
