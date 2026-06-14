@@ -1,19 +1,14 @@
 public class SumOfDigits {
     public static void main(String[] args) {
-        int n = 1342;
-        int ans = sumOfDigits(n);
-        System.out.println(ans);
+        int ans = sumOfDigits(1342);
+        System.out.println("Answer is: " + ans);
     }
-    static int sumOfDigits(int n)
+    static int sumOfDigits(int number)
     {
-        if (n == 0)
+        if (number%10==0)
         {
             return 0;
-        }
-
-        int digit = n%10;
-        n = n/10;
-
-        return digit+sumOfDigits(n);
+        }  
+        return number%10 + sumOfDigits(number/10);
     }
 }

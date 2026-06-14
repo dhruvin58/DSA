@@ -1,3 +1,5 @@
+package Simple_Programs.src;
+
 import java.util.Scanner;
 
 public class ArmStrong {

@@ -1,3 +1,5 @@
+package Simple_Programs.src;
+
 public class Shadow {
     static int a = 10;
     public static void main(String[] args) {
